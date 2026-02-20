@@ -5,7 +5,7 @@ export default function App() {
   return (
     <BrowserRouter>
     <header className="flex flex-col">
-        <Link to="/" className="text-3xl font-bold bg-primary text-light p-6">React Tailwind Starter</Link>
+        <Link to="/" className="text-3xl font-bold text-white bg-secondary p-6">Quiz app</Link>
     </header>
     <Routes>
       <Route path="/" element={<Home />} />
